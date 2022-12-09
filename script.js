@@ -29,8 +29,10 @@ function calculateTotal(toppingArray) {
 
     // For Loop
     for(var i = 0; i < toppings.length; i++){
+       if (toppings[i] != "") {
         total = total + toppingCost;
         toppingString = toppingString + " " + toppings[i];
+       }
     }
     // total = baseCost + cost of all toppings
 
