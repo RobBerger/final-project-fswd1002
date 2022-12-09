@@ -10,6 +10,10 @@ formButton.addEventListener("click", function getName(event) {
     var topping1 = document.getElementById('topping1').value;
     var topping2 = document.getElementById('topping2').value;
     var topping3 = document.getElementById('topping3').value;
+    toppings.push(topping1);
+    toppings.push(topping2);
+    toppings.push(topping3);
+    calculateTotal(toppings);
 })
 
 function calculateTotal(toppingArray) {  
