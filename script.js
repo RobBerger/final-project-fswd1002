@@ -28,7 +28,9 @@ function calculateTotal(toppingArray) {
     let toppingString = "Toppings: ";
 
     // For Loop
-
+    for(var i = 0; i < toppings.length; i++){
+        
+    }
     // total = baseCost + cost of all toppings
 
     // set DOM total += total   
