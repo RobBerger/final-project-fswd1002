@@ -35,8 +35,10 @@ function calculateTotal(toppingArray) {
        }
     }
     // total = baseCost + cost of all toppings
-total = total + baseCost;
+    total = total + baseCost;
     // set DOM total += total   
+    var pricePrint = document.getElementById("total");
+    pricePrint.innerHTML = "$" + total;
     // use DOM: = orderString   
     // use DOM: = toppingString 
 }
