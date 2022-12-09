@@ -20,10 +20,9 @@ function calculateTotal(toppingArray) {
     let total = 0; 
     let toppingCost = 2.50; 
     let baseCost = 5.50; // cost of crust and sauce
-    let orderString = crust + "pizza with " + sauce;
 
     // order string concatenation
-    
+    let orderString = crust + "pizza with " + sauce;
 
     let toppingString = "Toppings: ";
 
@@ -39,6 +38,8 @@ function calculateTotal(toppingArray) {
     // set DOM total += total   
     var pricePrint = document.getElementById("total");
     pricePrint.innerHTML = "$" + total;
-    // use DOM: = orderString   
+    // use DOM: = orderString 
+    var orderStringPrint = document.getElementById("pizzaOrder");
+    orderStringPrint.innerHTML = orderString;
     // use DOM: = toppingString 
 }
