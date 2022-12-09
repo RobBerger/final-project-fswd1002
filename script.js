@@ -5,6 +5,9 @@ var sauce = document.getElementById('sauce');
 var toppings = [ ];
 // event listener
 var formButton = document.getElementById('btn');
+formButton.addEventListener("click", function getName(event) {
+    
+})
 
 function calculateTotal(toppingArray) {  
     let total = 0; 
