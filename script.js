@@ -1,4 +1,4 @@
-// Global variables
+var crust = document.getElementById('crust');
 
 // toppings array
 
