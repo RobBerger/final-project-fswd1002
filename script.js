@@ -1,5 +1,6 @@
+// Global variables
 var crust = document.getElementById('crust');
-
+var sauce = document.getElementById('sauce');
 // toppings array
 
 // event listener
