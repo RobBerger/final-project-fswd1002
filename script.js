@@ -2,7 +2,7 @@
 var crust = document.getElementById('crust');
 var sauce = document.getElementById('sauce');
 // toppings array
-
+var toppings = [ ];
 // event listener
 
 
