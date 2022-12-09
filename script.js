@@ -29,7 +29,7 @@ function calculateTotal(toppingArray) {
 
     // For Loop
     for(var i = 0; i < toppings.length; i++){
-        
+        total = total + toppingCost;
     }
     // total = baseCost + cost of all toppings
 
