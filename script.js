@@ -7,6 +7,9 @@ var toppings = [ ];
 var formButton = document.getElementById('btn');
 formButton.addEventListener("click", function getName(event) {
     event.preventDefault();
+    var topping1 = document.getElementById('topping1').value;
+    var topping2 = document.getElementById('topping2').value;
+    var topping3 = document.getElementById('topping3').value;
 })
 
 function calculateTotal(toppingArray) {  
