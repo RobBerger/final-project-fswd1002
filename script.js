@@ -35,7 +35,7 @@ function calculateTotal(toppingArray) {
        }
     }
     // total = baseCost + cost of all toppings
-
+total = total + baseCost;
     // set DOM total += total   
     // use DOM: = orderString   
     // use DOM: = toppingString 
