@@ -3,8 +3,13 @@
     <head>
         <title>Lesson 10 Final</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;700&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <h1 class="title">PAPA BETHEL'S</h1>
+        </header>
         <div class="createOrder">
             <h3>Available Crusts</h3>
             <p>Original</p>
@@ -27,8 +32,10 @@
             <form>
                 <lable>Choose Your Crust:</lable>
                 <input type="text" id="crust" />
+                <br>
                 <lable>Choose Your Sauce:</lable>
                 <input type="text" id="sauce" />
+                <br>
                 <lable>Topping 1:</lable>
                 <input type="text" id="topping1" />
                 <lable>Topping 2:</lable>
@@ -39,14 +46,14 @@
             </form>
         </div>
         <div id="order">
-            <p>Completed Pizza Order:</p>
+            <p id="cpop"><b>Completed Pizza Order:</b></p>
             <div id="pizzaOrder">
 
             </div>
             <div id="toppings">
 
             </div>
-            <p>Sales Total:</p>
+            <p id="stp"><b>Sales Total:</b></p>
             <div id="total">
                 
             </div>
